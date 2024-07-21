@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>CALM Services</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        /* Custom CSS for adjusting services section */
+        .services-section {
+            margin-left: auto; /* Moves the services section to the right */
+        }
+        /* Styling for service sections */
+        .service-section {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+        .service-section h3 {
+            margin-top: 0;
+        }
+    </style>
+    <script>
+        // JavaScript for smooth scrolling
+        document.addEventListener("DOMContentLoaded", function() {
+            var scrollLinks = document.querySelectorAll('.scroll-link');
+            
+            scrollLinks.forEach(function(link) {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    var targetId = this.getAttribute('href').substring(1);
+                    var targetElement = document.getElementById(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="page-wrapper">
+
+    <!-- Header -->
+    <div id="header-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <header id="header">
+                        <h1>
+                            <a href="index.html" id="logo">
+                                <img src="assets/css/images/Screenshot 2024-07-15 132753_prev_ui.png" alt="CALM Logo" style="width: 300px; height: 85px;" />
+                            </a>
+                        </h1>
+                        <nav id="nav">
+                            <a href="index.html">Homepage</a>
+                            <a href="ContactUs.html">Contact Us</a>
+                            <a href="Services.html" class="current-page-item">Services</a>
+                            <a href="AtHomeStudy.html">At home Study</a>
+                        </nav>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner -->
+    <div id="banner-wrapper">
+        <div class="container">
+            <div id="banner">
+                <h2>Welcome To <span class="uppercase">CALM</span></h2>
+                <h3>Counseling for Anger and Lifeskills management</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main">
+        <div class="container">
+            <div class="row main-row">
+                <div class="col-12">
+                    <section class="service-section" id="addiction">
+                        <h2>ADDICTION</h2>
+                        <p>
+                            At CALM, we offer a team of qualified professionals with years of experience treating alcohol, drugs, gambling, and sex addiction. We provide assessments, referrals and individual psychotherapy. We have knowledgeable counselors with an understanding of anti-addiction medications such as Suboxone. Take the first steps towards recovery. Contact us for an initial assessment today.
+                        </p>
+                        <p>Contact: info@calmprogram.com</p>
+                        <div class="back-home-button">
+                            <a href="index.html">
+                                <span>Go back to home</span>
+                            </a>
+                        </div>
+                        </div>
+                    </section>
+                    <section class="service-section" id="anger">
+                        <h2>ANGER</h2>
+                        <p>
+                            Problematic anger is defined as anger which is more frequent, longer duration, or of greater intensity than expected. Problematic anger causes difficulties in relationships, employment or with the legal system.
+                        </p>
+                        <div class="back-home-button">
+                            <a href="index.html">
+                                <span>Go back to home</span>
+                            </a>
+                        </div>
+                    </section>
+                    <section class="service-section" id="anxiety">
+                        <h2>ANXIETY</h2>
+                        <p>
+                            Treating anxiety is a two-step process. The first step is to identify the anxiety symptoms and learn new ways to manage them. This is done by learning relaxation techniques and by identifying and changing the faulty thought patterns that contribute to the anxious feelings. The second step is to implement the relaxation and thought-stopping techniques. The use of visualization is also added for clients dealing with specific phobias.
+                        </p>
+                        <div class="back-home-button">
+                            <a href="index.html">
+                                <span>Go back to home</span>
+                            </a>
+                        </div>
+                    </section>
+                    <section class="service-section" id="depression">
+                        <h2>DEPRESSION</h2>
+                        <p>
+                            Symptoms of depression include feelings of sadness, hopelessness, helplessness, and worthlessness; loss of interest in activities, changes to appetite or sleep patterns, increased irritability, increased distractedness, and loss of concentration. People experiencing depression experience some (or even all) of these symptoms to varying degrees. Psychotherapy has been proven to be crucial in the recovery from depression.</p>
+                            <div class="back-home-button">
+                                <a href="index.html">
+                                    <span>Go back to home</span>
+                                </a>
+                            </div>
+                        </section>
+                    <section class="service-section" id="eating-disorders">
+                        <h2>EATING DISORDERS</h2>
+                        <p>
+                            Unhealthy relationships with food such as anorexia, bulimia, and compulsive eating cause physical, psychological and interpersonal problems. We believe in a multifaceted treatment approach including medical evaluation, psychotherapy and nutritional counseling.
+                        </p>
+                        <div class="back-home-button">
+                            <a href="index.html">
+                                <span>Go back to home</span>
+                            </a>
+                        </div>
+                    </section>
+                    <section class="service-section" id="family-conflicts">
+                        <h2>FAMILY CONFLICTS</h2>
+                        <p>
+                            When there is conflict within the family all members are affected. Whether the conflicts are changes in family dynamics, blended families, addiction or any other issue; therapy in a safe, healing environment can help families resolve conflict and create a harmonious unit.
+                        </p>
+                        <div class="back-home-button">
+                            <a href="index.html">
+                                <span>Go back to home</span>
+                            </a>
+                        </div>
+                    </section>
+                    <section class="service-section" id="grief-loss">
+                        <h2>GRIEF/LOSS</h2>
+                        <p>
+                            Whether due to changes, death, or other circumstances, grief can sometimes feel overwhelming. Our caring professionals are specially trained to assist clients to work through the grieving process.
+                        </p>
+                        <div class="back-home-button">
+                            <a href="index.html">
+                                <span>Go back to home</span>
+                            </a>
+                        </div>
+                    </section>
+                    <section class="service-section" id="relationships">
+                        <h2>RELATIONSHIPS</h2>
+                        <p>
+                            People do not usually have a lot of conflicts in their relationships; they tend to have the same conflicts repeatedly. Through couples counseling, issues which contribute to conflicts are addressed and resolved. Couples are educated about more effective communication styles, problem-solving skills, and active listening skills. This results in healthier relationships and increased life satisfaction.
+                        </p>
+                        <div class="back-home-button">
+                            <a href="index.html">
+                                <span>Go back to home</span>
+                            </a>
+                        </div>
+                    </section>
+                    <section class="service-section" id="stress">
+                        <h2>STRESS</h2>
+                        <p>
+                            Chronic Stress contributes to every major illness and contributes to addiction, eating disorders, anger, and other emotional disturbances. By learning and implementing better coping skills, clients improve their health, well being, and relationships.
+                        </p>
+                        <div class="back-home-button">
+                            <a href="index.html">
+                                <span>Go back to home</span>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-8 col-12-medium">
+                    <!-- Add your footer content here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
